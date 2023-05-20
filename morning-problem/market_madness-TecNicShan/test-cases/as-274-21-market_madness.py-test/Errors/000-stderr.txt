@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/Users/nickshan/Documents/multipass/morning-problem/market_madness-TecNicShan/soln/market_madness.py", line 11, in <module>
+    if prices[x] < min_element:
+NameError: name 'min_element' is not defined
+
+Expected file "test-cases/as-274-21-market_madness.py-test/Expected/000-stderr.txt" has no output file match

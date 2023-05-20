@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/multipass1/Weekly Excercise/WE06-TecNicShan/moneybags/soln/moneybags.py", line 8, in <module>
+    if applicants[index] > index:
+IndexError: list index out of range
+
+Expected file "test-cases/as-274-21-moneybags.py-test/Expected/sample1-stdout.txt" has no output file match
+Expected file "test-cases/as-274-21-moneybags.py-test/Expected/sample1-stderr.txt" has no output file match

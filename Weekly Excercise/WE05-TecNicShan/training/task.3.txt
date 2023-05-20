@@ -1,0 +1,117 @@
+% Credit:  Paul Lu, Copyright 2022
+%pos-features good hungry delicious love favourite nice like enjoy best comfort liked
+%pos-label #goodfood
+%
+#goodfood	that was delicious
+#goodfood	yummy food
+#goodfood	good eats
+#goodfood	may I have more please
+#goodfood	just like mom's cooking
+#goodfood	like when I was growing up
+#goodfood	that tastes good
+#goodfood	such wonderful food
+#goodfood   I love this meal
+#goodfood   My friend liked this food
+#goodfood   That meal made me feel nice
+#goodfood   I love homemade meals
+#goodfood   These burgers taste nice
+#goodfood   Poutine is my favourite food
+#goodfood   I enjoy a slice of pizza
+#goodfood   Ice cream is a nice dessert
+#goodfood   burgers are a comfort food for me
+#goodfood   I really like to drink coke
+#goodfood   oranges are my favourite fruit
+#goodfood   can I have another plate please
+#goodfood   this meal was the best
+#goodfood   I did not love that bowl of rice
+#goodfood   I enjoyed the fruit smoothie
+#goodfood   I enjoyed that apple pie
+#goodfood   I enjoyed that chocolate chip cookie
+#goodfood   I enjoyed that milkshake
+#goodfood   I enjoyed the bacon
+#goodfood   I enjoyed that sandwich
+#goodfood   I enjoyed that bagel
+#goodfood   I enjoyed that steak
+#goodfood   I enjoyed that salad
+#goodfood   I enjoyed those tacos
+#goodfood   this milkshake was yummy
+#goodfood   this burger was juicy
+#goodfood   these tacos are yummy
+#goodfood   these chips are yummy
+#goodfood   these fries are yummy
+#goodfood   these tacos are yummy
+#goodfood   I liked that sandwich
+#goodfood   I liked that bagel
+#goodfood   I liked that steak
+#goodfood   I liked that salad
+#goodfood   this taco was delicious
+#goodfood   these chips were delicious
+#goodfood   this steak was delicious
+#goodfood   this salad was delicious
+#goodfood   these fries were delicious
+#goodfood   these donuts were delicious
+#goodfood   these brownies were delicious
+#goodfood   these sausages were delicious
+#goodfood   these churros were delicious
+#goodfood   these macarons were delicious
+#goodfood   these spring rolls were delicious
+#goodfood   this tiramisu was delicious
+#goodfood   this ceviche was delicious
+#goodfood   this ravioli was delicious
+#goodfood   this baguette was delicious
+#goodfood   this mooncake was delicious
+#goodfood   these fish and chips were delicious
+#goodfood   this doughnut was delicious
+#goodfood   this chocolate chip cookie was delicious
+#goodfood   this bibimbap was delicious
+#goodfood   this bulgogi was delicious
+#goodfood   this naan was delicious
+#goodfood   this chutney was delicious
+#goodfood   this gnocchi was delicious
+#goodfood   this quesadilla was delicious
+#goodfood   this quacamole was delicious
+#goodfood   this tonkatsu was delicious
+#goodfood   this penne was delicious
+#goodfood   this hummus was delicious
+#goodfood   this wasabi was delicious
+#goodfood   this tamal was delicious
+#goodfood   this burrito was delicious
+#goodfood   this doughnut was yummy
+#goodfood   this chocolate chip cookie was yummy
+#goodfood   this bibimbap was yummy
+#goodfood   this bulgogi was yummy
+#goodfood   this naan was yummy
+#goodfood   this chutney was yummy
+#goodfood   this gnocchi was yummy
+#goodfood   this quesadilla was yummy
+#goodfood   this quacamole was yummy
+#goodfood   this tonkatsu was yummy
+#goodfood   this penne was yummy
+#goodfood   this hummus was yummy
+#goodfood   this wasabi was yummy
+#goodfood   this tamal was yummy
+#goodfood   this burrito was yummy
+%
+%
+#negative	I did not like that
+#negative	what an unusual taste
+#negative	not my favourite
+#negative	not again
+#negative	I am not very hungry right now
+#negative	nothing for me, thank you
+#negative	no thank you
+#negative	yuck
+#negative   that was gross
+#negative   the food was bad
+#negative   I do not want more
+#negative   the food smells bad
+#negative   the food tasts like vomit
+#negative   this food seems to have gone bad
+#negative   I see mold on this food
+#negative   my family did not enjoy that meal
+#negative   I did not like that apple
+#negative   I will pass on this dish
+#negative   brussel sprouts taste strange
+#negative   that potato looks funny
+#negative   that food is expired
+#negative   I hated that meal

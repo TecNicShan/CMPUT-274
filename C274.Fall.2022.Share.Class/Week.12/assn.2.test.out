@@ -1,0 +1,126 @@
+make decomp CASE=1 FILE=test.1.txt
+make[1]: Entering directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+***************************
+** Test  1 : Decompress -->  test.1.txt
+python3 decompress.py Tests/test.1.txt.huf
+Decompressing 'Tests/test.1.txt.huf' to 'Tests/test.1.txt.huf.decomp'
+cmp Expected/test.1.txt Tests/test.1.txt.huf.decomp
+cksum Expected/test.1.txt Tests/test.1.txt.huf.decomp
+2104242084 2236 Expected/test.1.txt
+2104242084 2236 Tests/test.1.txt.huf.decomp
+** Passed:  1  Decompress -->  test.1.txt
+***************************
+make[1]: Leaving directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+make decomp CASE=2 FILE=index.html
+make[1]: Entering directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+***************************
+** Test  2 : Decompress -->  index.html
+python3 decompress.py Tests/index.html.huf
+Decompressing 'Tests/index.html.huf' to 'Tests/index.html.huf.decomp'
+cmp Expected/index.html Tests/index.html.huf.decomp
+cksum Expected/index.html Tests/index.html.huf.decomp
+2209979107 344 Expected/index.html
+2209979107 344 Tests/index.html.huf.decomp
+** Passed:  2  Decompress -->  index.html
+***************************
+make[1]: Leaving directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+make decomp CASE=3 FILE=favicon.ico
+make[1]: Entering directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+***************************
+** Test  3 : Decompress -->  favicon.ico
+python3 decompress.py Tests/favicon.ico.huf
+Decompressing 'Tests/favicon.ico.huf' to 'Tests/favicon.ico.huf.decomp'
+cmp Expected/favicon.ico Tests/favicon.ico.huf.decomp
+cksum Expected/favicon.ico Tests/favicon.ico.huf.decomp
+3430623190 15406 Expected/favicon.ico
+3430623190 15406 Tests/favicon.ico.huf.decomp
+** Passed:  3  Decompress -->  favicon.ico
+***************************
+make[1]: Leaving directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+make decomp CASE=4 FILE=arrow.png
+make[1]: Entering directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+***************************
+** Test  4 : Decompress -->  arrow.png
+python3 decompress.py Tests/arrow.png.huf
+Decompressing 'Tests/arrow.png.huf' to 'Tests/arrow.png.huf.decomp'
+cmp Expected/arrow.png Tests/arrow.png.huf.decomp
+cksum Expected/arrow.png Tests/arrow.png.huf.decomp
+91417007 273852 Expected/arrow.png
+91417007 273852 Tests/arrow.png.huf.decomp
+** Passed:  4  Decompress -->  arrow.png
+***************************
+make[1]: Leaving directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+make decomp CASE=5 FILE=oval.png
+make[1]: Entering directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+***************************
+** Test  5 : Decompress -->  oval.png
+python3 decompress.py Tests/oval.png.huf
+Decompressing 'Tests/oval.png.huf' to 'Tests/oval.png.huf.decomp'
+cmp Expected/oval.png Tests/oval.png.huf.decomp
+cksum Expected/oval.png Tests/oval.png.huf.decomp
+4012727110 223293 Expected/oval.png
+4012727110 223293 Tests/oval.png.huf.decomp
+** Passed:  5  Decompress -->  oval.png
+***************************
+make[1]: Leaving directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+make decomp CASE=6 FILE=huffman.bmp
+make[1]: Entering directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+***************************
+** Test  6 : Decompress -->  huffman.bmp
+python3 decompress.py Tests/huffman.bmp.huf
+Decompressing 'Tests/huffman.bmp.huf' to 'Tests/huffman.bmp.huf.decomp'
+cmp Expected/huffman.bmp Tests/huffman.bmp.huf.decomp
+cksum Expected/huffman.bmp Tests/huffman.bmp.huf.decomp
+3214615300 167538 Expected/huffman.bmp
+3214615300 167538 Tests/huffman.bmp.huf.decomp
+** Passed:  6  Decompress -->  huffman.bmp
+***************************
+make[1]: Leaving directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+make both CASE=7 FILE=Tests/x.test.1.txt
+make[1]: Entering directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+***************************
+** Test  7 Part (1): Compress -->  Tests/x.test.1.txt
+python3 compress.py Tests/x.test.1.txt
+Compressing 'Tests/x.test.1.txt' to 'Tests/x.test.1.txt.huf'
+** Test  7 Part (2): Decompress -->  Tests/x.test.1.txt
+python3 decompress.py Tests/x.test.1.txt.huf
+Decompressing 'Tests/x.test.1.txt.huf' to 'Tests/x.test.1.txt.huf.decomp'
+cmp Tests/x.test.1.txt Tests/x.test.1.txt.huf.decomp
+cksum Tests/x.test.1.txt Tests/x.test.1.txt.huf.decomp
+2104242084 2236 Tests/x.test.1.txt
+2104242084 2236 Tests/x.test.1.txt.huf.decomp
+** Passed  7 : Decompress -->  Tests/x.test.1.txt
+***************************
+make[1]: Leaving directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+make both CASE=8 FILE=Tests/x.arrow.png
+make[1]: Entering directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+***************************
+** Test  8 Part (1): Compress -->  Tests/x.arrow.png
+python3 compress.py Tests/x.arrow.png
+Compressing 'Tests/x.arrow.png' to 'Tests/x.arrow.png.huf'
+** Test  8 Part (2): Decompress -->  Tests/x.arrow.png
+python3 decompress.py Tests/x.arrow.png.huf
+Decompressing 'Tests/x.arrow.png.huf' to 'Tests/x.arrow.png.huf.decomp'
+cmp Tests/x.arrow.png Tests/x.arrow.png.huf.decomp
+cksum Tests/x.arrow.png Tests/x.arrow.png.huf.decomp
+91417007 273852 Tests/x.arrow.png
+91417007 273852 Tests/x.arrow.png.huf.decomp
+** Passed  8 : Decompress -->  Tests/x.arrow.png
+***************************
+make[1]: Leaving directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+make both CASE=9 FILE=Tests/x.oval.png
+make[1]: Entering directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'
+***************************
+** Test  9 Part (1): Compress -->  Tests/x.oval.png
+python3 compress.py Tests/x.oval.png
+Compressing 'Tests/x.oval.png' to 'Tests/x.oval.png.huf'
+** Test  9 Part (2): Decompress -->  Tests/x.oval.png
+python3 decompress.py Tests/x.oval.png.huf
+Decompressing 'Tests/x.oval.png.huf' to 'Tests/x.oval.png.huf.decomp'
+cmp Tests/x.oval.png Tests/x.oval.png.huf.decomp
+cksum Tests/x.oval.png Tests/x.oval.png.huf.decomp
+4012727110 223293 Tests/x.oval.png
+4012727110 223293 Tests/x.oval.png.huf.decomp
+** Passed  9 : Decompress -->  Tests/x.oval.png
+***************************
+make[1]: Leaving directory '/home/ubuntu/Host/ASSN2-paullu-teach/huffman'

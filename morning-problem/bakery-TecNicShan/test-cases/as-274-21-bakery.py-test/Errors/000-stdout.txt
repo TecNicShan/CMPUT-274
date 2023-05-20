@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/ubuntu/multipass1/morning-problem/bakery-TecNicShan/soln/bakery.py", line 14, in <module>
+    done += 1
+TypeError: 'int' object is not iterable
+
+Expected file "test-cases/as-274-21-bakery.py-test/Expected/000-stdout.txt" has no output file match

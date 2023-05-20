@@ -1,0 +1,49 @@
+% Credit:  Paul Lu, Copyright 2022
+%pos-features good hungry delicious love favourite nice like enjoy best comfort liked
+%pos-label #goodfood
+%
+#goodfood	that was delicious
+#goodfood	yummy food
+#goodfood	good eats
+#goodfood	may I have more please
+#goodfood	just like mom's cooking
+#goodfood	like when I was growing up
+#goodfood	that tastes good
+#goodfood	such wonderful food
+#goodfood   I love this meal
+#goodfood   My friend liked this food
+#goodfood   That meal made me feel nice
+#goodfood   I love homemade meals
+#goodfood   These burgers taste nice
+#goodfood   Poutine is my favourite food
+#goodfood   I enjoy a slice of pizza
+#goodfood   Ice cream is a nice dessert
+#goodfood   burgers are a comfort food for me
+#goodfood   I really like to drink coke
+#goodfood   oranges are my favourite fruit
+#goodfood   can I have another plate please
+#goodfood   this meal was the best
+%
+%
+#negative	I did not like that
+#negative	what an unusual taste
+#negative	not my favourite
+#negative	not again
+#negative	I am not very hungry right now
+#negative	nothing for me, thank you
+#negative	no thank you
+#negative	yuck
+#negative   that was gross
+#negative   the food was bad
+#negative   I do not want more
+#negative   the food smells bad
+#negative   the food tasts like vomit
+#negative   this food seems to have gone bad
+#negative   I see mold on this food
+#negative   my family did not enjoy that meal
+#negative   I did not like that apple
+#negative   I will pass on this dish
+#negative   brussel sprouts taste strange
+#negative   that potato looks funny
+#negative   that food is expired
+#negative   I hated that meal
